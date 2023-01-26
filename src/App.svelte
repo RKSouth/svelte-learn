@@ -61,31 +61,31 @@ import Image from './assets/rachael.jpg'
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: black;
+    color: rgb(49, 18, 18);
     transition: background-color 0.3s;
   }
   :global(body.dark-mode) {
-    background-image: url('./assets/pexels-rachel-claire-4992669.jpg');
+    background-image: url('./assets/pexels-rachel-claire-4993160.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #bfc2c7;
+    color: #c7bfbf;
 
   }
 
   button {
     background-color: #e0e0e0;
-    color: #6b8eac;
+    color: #ac6b82;
     border: none;
     padding: 0.5rem;
 
   }
   button:focus {
    border: none;
-   box-shadow: 0 0 15px 5px #303141aa;
+   box-shadow: 0 0 15px 5px #413030aa;
   }
   :global(body.dark-mode) button {
-    background-color: #1d3040;
+    background-color: #401d1d;
     color: #bfc2c7;
   }
   main {
@@ -105,7 +105,7 @@ import Image from './assets/rachael.jpg'
   }
 
   header:hover {
-    box-shadow: inset 0 0 15px 5px #303141aa;
+    box-shadow: inset 0 0 15px 5px #413035aa;
   }
 
 header h3 {
@@ -153,22 +153,24 @@ header h3 {
 
 
   :global(body.dark-mode) header,  :global(body.dark-mode) section {
-  box-shadow: inset 0 0 15px 5px #17171eaa;
-  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 0 15px 5px #1e1717aa;
+  background-color: rgba(13, 4, 4, 0.75);
  }
 
  :global(body.dark-mode) header:hover, :global(body.dark-mode) section:hover {
-  box-shadow: 0 0 15px 5px rgba(21, 31, 21, 0.45);
+  box-shadow: 0 0 15px 5px rgba(31, 21, 22, 0.45);
  }
  ul#menu li{
 		display : inline;
 	}
-
+a {
+  color: #ca6868;
+}
   a:hover{
-  color:#bfc2c7
+  color:#c7bfc0
   }
   :global(body.dark-mode) a:hover {
-    color:#435b74
+    color:#744343
   }
 </style>
 

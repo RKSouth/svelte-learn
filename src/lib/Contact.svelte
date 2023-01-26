@@ -10,5 +10,12 @@ ul {
 }
 li {
     padding: 0.5rem;
+    color:#c7bfc0
 }
+a {
+  color: #ca6868;
+}
+  a:hover{
+  color:#c7bfc0
+  }
 </style>

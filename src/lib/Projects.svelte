@@ -32,10 +32,23 @@
 </ul>
 
 <style>
+    ul {
+    padding: 1.5rem;
+}
+li {
+    padding: 0.5rem;
+    color:#c7bfc0
+}
     h2 {
         margin:3rem;
         font-weight: bolder;
         font-size: 25px;
     }
+    a {
+  color: #ca6868;
+}
+  a:hover{
+  color:#c7bfc0
+  }
 
 </style>
