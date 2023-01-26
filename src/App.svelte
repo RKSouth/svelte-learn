@@ -3,7 +3,7 @@
   import Contact from "./lib/Contact.svelte";
   import About from './lib/About.svelte';
   import Xperience from "./lib/Xperience.svelte";
-  import Resume from "./lib/Resume.svelte";
+  import Projects from "./lib/Projects.svelte";
 import Image from './assets/rachael.jpg'
   function toggle() {
     window.document.body.classList.toggle("dark-mode");
@@ -14,7 +14,7 @@ import Image from './assets/rachael.jpg'
 </script>
 
 <header>
-  <img src={image}/>
+  <img src={image} alt="round picture of a nerdy blonde woman"/>
   <h1>Rachael Kelm-Southworth</h1>
 
   <h3>A developer who builds stuff kind of good</h3>
@@ -30,7 +30,8 @@ import Image from './assets/rachael.jpg'
       <li><a href="/" on:click|preventDefault={() => (menu = 1)}>About</a></li> |
       <li><a href="/" on:click|preventDefault={() => (menu = 2)}>Skillz</a></li> |
       <li><a href="/" on:click|preventDefault={() => (menu = 3)}>Xperience</a></li> |
-      <li><a href="/" on:click|preventDefault={() => (menu = 4)}>Contact</a></li>
+      <li><a href="/" on:click|preventDefault={() => (menu = 4)}>Projects</a></li> |
+      <li><a href="/" on:click|preventDefault={() => (menu = 5)}>Contact</a></li>
     </ul>
     
     {#if menu === 1}
@@ -40,6 +41,8 @@ import Image from './assets/rachael.jpg'
     {:else if menu === 3}
     <Xperience/>
     {:else if menu === 4}
+    <Projects/>
+    {:else if menu === 5}
     <Contact/>
     {:else}
     <h1>
