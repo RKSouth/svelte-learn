@@ -29,10 +29,4 @@
     main, h3 {
         padding: 1.5rem;
     }
-    /* h3 {font-size: 25px;}
-
-    li strong {
-        font-size: 20px;
-    }
-    li {font-size: 15px;} */
 </style>
