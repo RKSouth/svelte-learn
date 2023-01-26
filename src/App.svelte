@@ -4,17 +4,15 @@
   import About from './lib/About.svelte';
   import Xperience from "./lib/Xperience.svelte";
   import Projects from "./lib/Projects.svelte";
-import Image from './assets/rachael.jpg'
   function toggle() {
     window.document.body.classList.toggle("dark-mode");
     
   }
   export let menu = 1;
-  export let image = './src/assets/rachael2.jpg'
 </script>
 
 <header>
-  <img src={image} alt="round picture of a nerdy blonde woman"/>
+  <img src='./src/assets/rachael2.jpg' alt="a nerdy blonde woman"/>
   <h1>Rachael Kelm-Southworth</h1>
 
   <h3>A developer who builds stuff kind of good</h3>
