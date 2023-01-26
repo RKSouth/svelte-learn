@@ -56,13 +56,18 @@ import Image from './assets/rachael.jpg'
 
 <style>
   :global(body) {
-    background-color: rgb(239, 237, 233);
-    color: #435b74;
+    /* background-color: rgb(239, 237, 233); */
+    background-image: url('./assets/pexels-felix-mittermeier-1039083.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
     transition: background-color 0.3s;
   }
   :global(body.dark-mode) {
     background-color: #30363b;
-    color: #bfc2c7;
+    /* color: #bfc2c7; */
+    color: black;
   }
 
   button {
@@ -94,6 +99,7 @@ import Image from './assets/rachael.jpg'
     margin: 0 0 0 0%;
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.75);
     text-align: left;
+    background-color: rgb(198, 198, 198, .65);
   }
 
   header:hover {
@@ -132,7 +138,7 @@ header h3 {
 
     text-align: center;
     z-index: 0;
-   
+    background-color: rgba(195, 201, 174, 0.85);
     padding: 1.5em;
     margin-top: 40vh;
     box-shadow: 1px 1px 5px 3px rgb(198, 198, 198);
