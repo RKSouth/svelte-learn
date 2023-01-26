@@ -10,7 +10,7 @@ import Image from './assets/rachael.jpg'
     
   }
   export let menu = 1;
-  export let image = './src/assets/rachael.jpg'
+  export let image = './src/assets/rachael2.jpg'
 </script>
 
 <header>
@@ -30,8 +30,7 @@ import Image from './assets/rachael.jpg'
       <li><a href="/" on:click|preventDefault={() => (menu = 1)}>About</a></li> |
       <li><a href="/" on:click|preventDefault={() => (menu = 2)}>Skillz</a></li> |
       <li><a href="/" on:click|preventDefault={() => (menu = 3)}>Xperience</a></li> |
-      <li><a href="/" on:click|preventDefault={() => (menu = 4)}>Resume</a></li> |
-      <li><a href="/" on:click|preventDefault={() => (menu = 5)}>Contact</a></li>
+      <li><a href="/" on:click|preventDefault={() => (menu = 4)}>Contact</a></li>
     </ul>
     
     {#if menu === 1}
@@ -41,8 +40,6 @@ import Image from './assets/rachael.jpg'
     {:else if menu === 3}
     <Xperience/>
     {:else if menu === 4}
-    <Resume/>
-    {:else if menu === 5}
     <Contact/>
     {:else}
     <h1>
@@ -56,7 +53,7 @@ import Image from './assets/rachael.jpg'
 
 <style>
   :global(body) {
-    background-color: #fafcff;
+    background-color: rgb(239, 237, 233);
     color: #435b74;
     transition: background-color 0.3s;
   }
@@ -122,6 +119,7 @@ header h3 {
 
   img{
     width: 8rem;
+    border-radius: 100px;
     float:left;
     box-shadow:  5px 5x 5px 5px rgb(134, 134, 134);
     margin: 2rem 0rem 2rem 5rem;
@@ -153,8 +151,12 @@ header h3 {
  ul#menu li{
 		display : inline;
 	}
-  ul{
-    text-decoration: none;
+
+  a:hover{
+  color:#bfc2c7
+  }
+  :global(body.dark-mode) a:hover {
+    color:#435b74
   }
 </style>
 
