@@ -1,4 +1,4 @@
-<h3>Cool Projects</h3>
+<h2>Cool Projects</h2>
 <ul>
     <li> <strong>Drink to the Weather</strong>  
       </li>
@@ -27,6 +27,15 @@
     <li> <strong>Carbon + Diversity</strong> </li>
     <li>  <a href="https://github.com/RKSouth/CarbonDiversity">Github Link</a>
         <span> || </span>
-          <a href="https://rksouth.github.io/CarbonDiversity/">Live Deployment</a>s</li>
+          <a href="https://rksouth.github.io/CarbonDiversity/">Live Deployment</a></li>
 
 </ul>
+
+<style>
+    h2 {
+        margin:3rem;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+</style>
