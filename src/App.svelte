@@ -57,7 +57,7 @@ import Image from './assets/rachael.jpg'
 <style>
   :global(body) {
     /* background-color: rgb(239, 237, 233); */
-    background-image: url('./assets/pexels-felix-mittermeier-1039083.jpg');
+    background-image: url('./assets/pexels-sameera-madusanka-1666529.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,10 +138,10 @@ header h3 {
 
     text-align: center;
     z-index: 0;
-    background-color: rgba(195, 201, 174, 0.85);
+    background-color: rgba(236, 236, 246, 0.745);
     padding: 1.5em;
     margin-top: 40vh;
-    box-shadow: 1px 1px 5px 3px rgb(198, 198, 198);
+    box-shadow: 1px 1px 5px 3px rgb(111, 111, 138);
   }
 
   div {
