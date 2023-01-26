@@ -2,11 +2,11 @@
    
   </script>
   
-  <h2>About</h2>
+  <h2>A little about me...</h2>
 
 <h3>I like:</h3>
   <ul>
-    <li>Play relaxing video games like rimworld, civilization, and animal crossing</li>
+    <li>Playing relaxing video games like rimworld, civilization, and animal crossing</li>
     <li>Going on walks around the city</li>
     <li>Getting really comfortable</li>
     <li>Cooking and Eating good food</li>
