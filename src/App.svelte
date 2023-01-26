@@ -12,7 +12,7 @@
 </script>
 
 <header>
-  <img src='./src/assets/rachael2.jpg' alt="a nerdy blonde woman"/>
+  <img src='./assets/rachael2.jpg' alt="a nerdy blonde woman"/>
   <h1>Rachael Kelm-Southworth</h1>
 
   <h3>A developer who builds stuff kind of good</h3>
