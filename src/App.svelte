@@ -98,12 +98,12 @@
     position: absolute;
     width: 100%;
     margin: 0 0 0 0%;
-    box-shadow: 0 0 15px 5px rgba(144, 83, 83, 0.75);
+    box-shadow: 0 0 15px 5px rgba(175, 131, 131, 0.75);
     text-align: left;
   }
 
   header:hover {
-    box-shadow: inset 0 0 15px 5px rgba(144, 83, 83, 0.75);;
+    box-shadow: inset 0 0 15px 5px rgba(175, 131, 131, 0.75);;
   }
 
 header h3 {
@@ -116,10 +116,7 @@ header h3 {
     margin-top: -2rem;
   }
 
-  h2 {
-    font-size: 30px;
-    padding: 1.5em;
-  }
+
 
   h3 {
     font-size: 20px;
@@ -130,7 +127,7 @@ header h3 {
     width: 8rem;
     border-radius: 100px;
     float:left;
-    box-shadow:  5px 5x 5px 5px rgb(177, 97, 97, 0.75);
+    box-shadow:  5px 5x 5px 5px rgb(175, 131, 131, 0.75);
     margin: 2rem 0rem 2rem 5rem;
 
   }
@@ -141,7 +138,7 @@ header h3 {
     background-color: #ffffff80;
     padding: 1.5em;
     margin-top: 25vh;
-    box-shadow: 0 0 15px 5px rgba(177, 97, 97, 0.75);
+    box-shadow: 0 0 15px 5px rgba(175, 131, 131, 0.75);
   }
 
   div {
