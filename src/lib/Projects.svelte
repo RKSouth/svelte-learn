@@ -14,7 +14,8 @@
         <span> || </span>
           <a href="https://rksouth.github.io/Snake-Game/">Live Deployment</a></l>
     <li> <strong>Clicky Game</strong> </li>
-    <li> <a href="https://github.com/RKSouth/Clicker-Game">Github Link</a> <span> || </span>
+    <li> <a href="https://github.com/RKSouth/Clicker-Game">Github Link</a> 
+        <span> || </span>
         <a href="https://rksouth.github.io/Clicker-Game/">Live Deployment</a></li>
     <li> <strong>Axel the Bird</strong> </li>
     <li> <a href="https://github.com/RKSouth/AxelTheBird">Github Link</a>
@@ -37,7 +38,7 @@
 }
 li {
     padding: 0.5rem;
-    color:#c7bfc0
+    color:#b58f93
 }
     h2 {
         margin:3rem;

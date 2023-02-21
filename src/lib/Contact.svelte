@@ -1,7 +1,7 @@
 <ul>
-    <li><strong>Email:</strong>rkelmsouthworth@gmail.com</li>
-    <li><strong>LinkedIn:</strong>  <a href="https://www.linkedin.com/in/rachael-kelm-southworth-87a3831b3/">  www.linkedin.com/in/rachael-kelm-southworth-87a3831b3</a></li>
-    <li><strong>Github:</strong><a href="https://github.com/RKSouth">  https://github.com/RKSouth</a> </li>
+    <li><strong class="email">Email: </strong>rkelmsouthworth@gmail.com</li>
+    <li> <a href="https://www.linkedin.com/in/rachael-kelm-southworth-87a3831b3/"> <strong>LinkedIn</strong> </a></li>
+    <li><a href="https://github.com/RKSouth">  <strong>Github</strong></a> </li>
 </ul>
 
 <style>
@@ -10,7 +10,10 @@ ul {
 }
 li {
     padding: 0.5rem;
-    color:#c7bfc0
+    color:#b58f93
+}
+.email {
+  color:#986469
 }
 a {
   color: #ca6868;

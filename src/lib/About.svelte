@@ -6,18 +6,15 @@
 
 <h3>I like:</h3>
   <ul>
-    <li>Playing relaxing video games like rimworld, civilization, and animal crossing</li>
     <li>Going on walks around the city</li>
     <li>Getting really comfortable</li>
     <li>Cooking and Eating good food</li>
     <li>Listening to good music</li>
-    <li>Taking it easy with my family</li>
     <li>Doing puzzles</li>
     <li>Any kind of arts and crafts</li>
     <li>Making cool things with code</li>
     <li>Talking about rules</li>
-    <li>Trying to be healthy</li>
-    <li>Generally trying to make myself better than I was yesterday</li>
+    <li>Improving myself on the daily</li>
   </ul>
   <h3>I don't like:</h3>
   <ul>
