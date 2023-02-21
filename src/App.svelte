@@ -59,7 +59,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: rgb(49, 18, 18);
+    color: rgb(65, 15, 15);
     transition: background-color 0.3s;
   }
   :global(body.dark-mode) {
